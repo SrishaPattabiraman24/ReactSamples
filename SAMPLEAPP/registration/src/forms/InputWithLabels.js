@@ -7,7 +7,6 @@ class InputWithLabels extends Component{
         console.log(props)
     }
 
-
     render(){
         const {min,max,name,value,onChange,label} = this.props;
         return(
